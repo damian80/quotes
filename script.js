@@ -24,3 +24,8 @@ const quotes = [
 
 ]
 // 1.targeting button tag
+const quoteBtn = document.querySelector('#quoteBtn');
+// 2.targeting quote author section
+const quoteAuthor = document.querySelector('#quoteAuthor');
+// 3.targeting quote section
+const quote = document.querySelector('#quote');
