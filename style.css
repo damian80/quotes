@@ -1,3 +1,40 @@
 body {
-    background-color:red;
+    min-height: 100vh;
+    background: linear-gradient(to left, rgb(189, 105, 66) 0%, rgba(123, 216, 123, 0.151) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#333;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif'; */
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color:white;
+    flex:0 0 80%;
+}
+#quoteBtn {
+    border:none;
+    color:red;
+    background-color:greenyellow;
+    font-size:1.3rem;
+    padding:0.25rem 0.5rem;
+    border-radius:7px;
+}
+#quoteBtn:hover {
+    color:black;
+    outline: none;
+}
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid green;
+    margin:1.5rem;
+    padding: 0.5rem;
+}
+#quoteAuthor {
+    color:green;
 }
