@@ -29,3 +29,17 @@ const quoteBtn = document.querySelector('#quoteBtn');
 const quoteAuthor = document.querySelector('#quoteAuthor');
 // 3.targeting quote section
 const quote = document.querySelector('#quote');
+
+// 1.selecting created variable 'quoteBtn'
+// adding 'eventListener',
+// tell whats happend after click,
+// and create function 'dipslayQuote'
+quoteBtn.addEventListener('click', displayQuote);
+// 2.telling function 'displayQuote' what to do,
+//  and create METHOD 'Math.random'
+//  which allows to generates random number(of quotes) for 'displayQuote'
+//  which is not less than 0 and bigger than 5 in our situation
+
+function displayQuote()  {
+  let number = Math.floor(Math.random()*quotes.length)
+}
